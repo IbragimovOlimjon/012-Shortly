@@ -109,6 +109,7 @@ img {
 
 .site-header__logo {
     display: flex;
+    flex-shrink: 0;
     margin-right: 45px;
 }
 .site-header__logo-img {
