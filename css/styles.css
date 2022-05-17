@@ -424,8 +424,8 @@ img {
 
 /* SITE FOOTER */
 .site-footer {
-    padding-top: 72px;
-    padding-bottom: 72px;
+    padding-top: 71px;
+    padding-bottom: 70px;
     background-color: var(--color-footer);
 }
 .site-footer__container {
