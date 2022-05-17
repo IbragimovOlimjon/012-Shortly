@@ -288,7 +288,7 @@ img {
 
 .main-content__info {
     width: 540px;
-    margin-bottom: 56px;
+    margin-bottom: 100px;
     margin-right: auto;
     margin-left: auto;
 }
@@ -315,7 +315,7 @@ img {
 .info {
     background-image: url("../img/line.svg");
     background-repeat: no-repeat;  
-    background-position: center center;
+    background-position: center 155px;
 }
 
 .main-content__list {
@@ -463,6 +463,15 @@ img {
     padding: 0;
     list-style: none;
 }
+
+.site-footer__list:first-child {
+    margin-right: 78px;
+}
+
+.site-footer__list:nth-child(2n) {
+    margin-right: 107px;
+}
+
 .site-footer__iteam:not(:last-child) {
     margin-bottom: 10px;
 }
